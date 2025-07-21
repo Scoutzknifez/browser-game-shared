@@ -1,4 +1,4 @@
-import { PacketType } from "../enums/PacketType";
+import { PacketType } from "..";
 
 export interface BasePacket {
     type: PacketType;
