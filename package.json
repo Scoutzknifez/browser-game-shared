@@ -1,0 +1,24 @@
+{
+    "name": "browser-game-shared",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "private": true,
+    "scripts": {
+        "build": "rm -rf ./dist && tsc"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+        "@types/node": "^24.0.15",
+        "@types/ws": "^8.18.1",
+        "@typescript-eslint/eslint-plugin": "^8.37.0",
+        "@typescript-eslint/parser": "^8.37.0",
+        "eslint": "8.57.1",
+        "eslint-plugin-perfectionist": "^4.15.0",
+        "prettier": "^3.6.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "ws": "^8.18.3"
+    }
+}
