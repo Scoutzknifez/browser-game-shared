@@ -11,6 +11,7 @@ export * from "./types/tic-tac-toe/packets/TicTacToeJoinRequestPacket";
 export * from "./types/tic-tac-toe/packets/TicTacToeJoinSuccessPacket";
 export * from "./types/tic-tac-toe/packets/TicTacToeTurnPacket";
 export * from "./types/tic-tac-toe/packets/TicTacToeUpdatePacket";
+export * from "./types/tic-tac-toe/TicTacToeGameInfo";
 export * from "./types/tic-tac-toe/TicTacToeScore";
 export * from "./types/BasePacket";
 //#endregion
